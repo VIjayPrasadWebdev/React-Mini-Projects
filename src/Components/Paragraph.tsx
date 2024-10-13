@@ -51,7 +51,7 @@ export default function ParagraphGenerator() {
         </ul>
       </div>
       <p
-        className={`lg:text-4xl text-3xl text-center text-black lg:mt-0 mt-10`}
+        className={`lg:text-4xl text-3xl text-center text-black lg:mt-0 mt-10 font-DM`}
       >
         Paragraph Generator
       </p>
@@ -77,7 +77,10 @@ export default function ParagraphGenerator() {
         {data.map((data, index) => {
           // console.log(data);
           return (
-            <p key={index} className="lg:text-xl md:text-xl text-base ">
+            <p
+              key={index}
+              className="lg:text-xl md:text-xl text-base text-black font-sans"
+            >
               {data}
             </p>
           );

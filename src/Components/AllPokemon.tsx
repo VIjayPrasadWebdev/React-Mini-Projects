@@ -26,13 +26,13 @@ export default function AllPokemon({ Allpokemons }: { Allpokemons: any }) {
         src={pokeball.src}
         className="absolute -z-10 opacity-30 object-cover lg:h-screen h-auto animate-spin"
       />
-      <p className="text-4xl p-6 text-center text-black">Pokemon App</p>
+      <p className="text-4xl p-6 text-center text-black font-DM">Pokemon App</p>
       <div className="pokemon-container flex items-center justify-center gap-4 p-6 flex-wrap">
         {Allpokemons.results.map(({ name }: any) => {
           return (
             <Link
               href={`/pokemon/${name}`}
-              className="text-center font-medium"
+              className="text-center font-medium font-sans"
               key={name}
             >
               {name}

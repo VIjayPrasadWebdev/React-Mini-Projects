@@ -30,8 +30,8 @@ export default function Tabapp() {
           </li>
         </ul>
       </div>
-      <p className="text-4xl p-6 text-center text-black">Tab</p>
-      <div className="tab-container grid lg:grid-cols-tabcontentcoloumn  grid-cols-1 place-items-center">
+      <p className="text-4xl p-6 text-center text-black font-DM">Tab</p>
+      <div className="tab-container grid lg:grid-cols-tabcontentcoloumn  grid-cols-1 place-items-center font-sans">
         <div className="btn-container flex flex-col flex-wrap gap-6 justify-center items-center p-6">
           {data.map((data: any, index: any) => {
             return (

@@ -93,7 +93,7 @@ export default function CounterApp() {
           </li>
         </ul>
       </div>
-      <p className=" text-black text-center text-4xl">Counter App</p>
+      <p className=" text-black text-center text-4xl font-DM">Counter App</p>
       <div className="mt-6 counter-box bg-white rounded-md shadow-xl flex justify-center items-center flex-col gap-6 lg:w-auto md:w-auto w-72 lg:h-auto md:h-auto h-60">
         <p className="text-7xl font-bold lg:p-6">
           <span

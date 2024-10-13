@@ -37,7 +37,7 @@ export default function SinglePokeon({
 
   return (
     <section
-      className={`single-pokemon-container h-screen p-6 flex items-center flex-col justify-center relative z-50 ${
+      className={` overflow-x-hidden single-pokemon-container h-screen p-6 flex items-center flex-col justify-center relative z-50 ${
         type == "fire"
           ? "bg-orange-200"
           : type == "grass"
@@ -100,7 +100,7 @@ export default function SinglePokeon({
           />
         </figure>
         <div className="card-body lg:w-96 w-72  bg-white rounded-md">
-          <h2 className="card-title text-2xl font-medium">
+          <h2 className="card-title text-2xl font-medium font-sans">
             {name.replace(/^./, name[0].toUpperCase())}
           </h2>
           <div className="btn-container flex items-center justify-start gap-3">

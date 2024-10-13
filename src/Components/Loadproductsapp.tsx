@@ -49,10 +49,10 @@ export default function LoadProductsapp({
         </ul>
       </div>
 
-      <p className=" text-black text-center text-4xl lg:mb-14 mb-6 mt-16">
+      <p className=" text-black text-center text-4xl lg:mb-14 mb-6 mt-16 font-DM">
         Load Products
       </p>
-      <div className="h-auto menu-category  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-8">
+      <div className="font-sans h-auto menu-category  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-8">
         {limititems.map(({ id, title, category, image }: any) => {
           return (
             <article

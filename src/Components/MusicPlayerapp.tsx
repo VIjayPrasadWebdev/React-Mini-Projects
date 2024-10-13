@@ -126,10 +126,10 @@ export default function MusicPlayerapp() {
         </ul>
       </div>
 
-      <p className="text-black text-center text-4xl lg:mb-14 md:mb-10 mb-4 lg:mt-0 md:mt-0 mt-14">
+      <p className="text-black text-center text-4xl lg:mb-14 md:mb-10 mb-4 lg:mt-0 md:mt-0 mt-14 font-DM">
         Music Player
       </p>
-      <article className="relative   top-0 left-0 bottom-0 right-0 music-player h-auto bg-white flex flex-col items-center justify-center gap-2 p-6 rounded-md shadow-xl">
+      <article className="font-sans relative   top-0 left-0 bottom-0 right-0 music-player h-auto bg-white flex flex-col items-center justify-center gap-2 p-6 rounded-md shadow-xl">
         <div className="upper-btn-container flex items-center justify-between w-full">
           <button>
             <RiArrowLeftSLine />
@@ -154,7 +154,7 @@ export default function MusicPlayerapp() {
         </div>
 
         <div className="text-container flex items-center justify-center flex-col  mt-5">
-          <p className="text-black font-semibold text-xl">{name}</p>
+          <p className="text-black font-normal text-xl font-DM">{name}</p>
           <p className="text-red-500 text-artistfont font-normal animate-name">
             {artist}
           </p>

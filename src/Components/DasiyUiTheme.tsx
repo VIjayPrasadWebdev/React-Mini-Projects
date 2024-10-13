@@ -25,7 +25,7 @@ export default function DaisyUiTheme() {
         </ul>
       </div>
 
-      <div className="theme-btn-container flex gap-3 items-center flex-wrap lg:mt-14 md:mt-0 mt-20">
+      <div className="theme-btn-container flex gap-3 items-center justify-center flex-wrap lg:mt-14 md:mt-0 mt-20">
         <button
           className="py-3 px-5 rounded-md font-semibold  bg-black text-white w-32"
           onClick={() => changeTheme("dark")}
@@ -82,7 +82,7 @@ export default function DaisyUiTheme() {
         </button>
       </div>
 
-      <p className=" text-black text-center text-4xl mb-14 mt-14">
+      <p className=" text-black text-center text-4xl mb-14 mt-14 font-DM">
         Theme Generator
       </p>
 

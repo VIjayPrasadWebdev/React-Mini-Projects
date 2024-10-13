@@ -29,7 +29,7 @@ export default function CustomScroller() {
         className="scroll-top-container shadow-xl flex flex-col justify-center items-center   bg-black 
       lg:h-24 h-28 fixed w-full top-0 z-50"
       >
-        <div className="breadcrumbs text-lg mr-auto absolute left-3 lg:top-6 top-2">
+        <div className="lg:visible md:visible hidden breadcrumbs text-lg mr-auto absolute left-3 lg:top-6 top-2">
           <ul className="text-white">
             <li>
               <Link href="/">Home</Link>
@@ -44,7 +44,7 @@ export default function CustomScroller() {
             </li>
           </ul>
         </div>
-        <p className=" text-white text-center text-4xl lg:mt-0 mt-5">
+        <p className=" text-white text-center text-4xl lg:mt-0 mt-5 font-DM">
           Custom Scroll{" "}
         </p>
         <div
@@ -52,8 +52,8 @@ export default function CustomScroller() {
           style={{ width: `${scrollpercentage}%` }}
         ></div>
       </article>
-      <div className="content p-2  absolute top-20  font-normal">
-        <p>
+      <div className="content p-2  absolute top-20  font-normal font-sans">
+        <p className="text-black">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto id
           repudiandae similique necessitatibus earum neque esse ipsam, in
           architecto. Quidem consequatur nobis atque vero tempore illo laborum

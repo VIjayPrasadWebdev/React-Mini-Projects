@@ -56,32 +56,32 @@ export default function RandomColors() {
           </li>
         </ul>
       </div>
-      <p className="text-4xl mb-6 p-6 text-center text-black">
+      <p className="text-4xl mb-6 p-6 text-center text-black font-DM">
         Random Color Generator
       </p>
       <article className="color-container flex justify-center flex-wrap items-center gap-2">
         <button
-          className="px-5 py-3 rounded-md bg-black text-white font-medium w-32"
+          className="px-5 py-3 rounded-md bg-black text-white font-medium w-32 font-sans"
           onClick={() => setType("hex")}
         >
           HEX colors
         </button>
         <button
-          className="px-5 py-3 rounded-md bg-black text-white font-medium w-32"
+          className="px-5 py-3 rounded-md bg-black text-white font-medium w-32 font-sans"
           onClick={() => setType("rgb")}
         >
           RGB colors
         </button>
         <button
-          className="px-5 py-3 rounded-md bg-black text-white font-medium w-32"
+          className="px-5 py-3 rounded-md bg-black text-white font-medium w-32 font-sans"
           onClick={type === "hex" ? handlehex : handleRGB}
         >
           Random
         </button>
       </article>
-      <p className="mt-10 flex items-center gap-2 text-black lg:text-2xl text-xl">
+      <p className="mt-10 flex items-center gap-2 text-black lg:text-2xl text-xl font-sans">
         {type === "rgb" ? "RGB-COLOR" : "HEX-COLOR"}
-        <span className="text-black font-bold lg:text-2xl text-colorstextfont">
+        <span className="text-black font-bold lg:text-2xl text-colorstextfont font-sans">
           {color}
         </span>
       </p>

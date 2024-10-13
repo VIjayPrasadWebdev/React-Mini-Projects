@@ -51,7 +51,7 @@ export default function Carouselapp() {
         </ul>
       </div>
 
-      <p className=" text-black text-center text-4xl lg:mb-14  md:mb-14 lg:mt-0 md:mt-0 mt-6">
+      <p className=" text-black text-center text-4xl lg:mb-14  md:mb-14 lg:mt-0 md:mt-0 mt-6 font-DM">
         Carousel
       </p>
       <div

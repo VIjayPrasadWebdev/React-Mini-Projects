@@ -42,9 +42,9 @@ export default function BirthdayRemainder() {
       <p className="lg:text-4xl text-3xl text-center text-black  lg:mt-0 md:mt-0 mt-20 font-DM">
         Birthday Remainder
       </p>
-      <p className="text-2xl text-center text-black">
+      <p className="text-2xl text-center text-black font-sans">
         Today <span className="text-fuchsia-500"> {data.length}</span> people
-        have Bithday
+        have Birthday
       </p>
       <div className="birthday-contaniner flex gap-6 items-center justify-center flex-wrap">
         {data.map(({ id, name, age, image }: any) => {

@@ -58,7 +58,9 @@ export default function Pagination({ data }: { data: any }) {
           </li>
         </ul>
       </div>
-      <p className="lg:text-4xl text-3xl text-center text-black">Pagination</p>
+      <p className="lg:text-4xl text-3xl text-center text-black font-DM">
+        Pagination
+      </p>
 
       <div className="pagination-container flex flex-col gap-3">
         {datainperpage.map(({ id, title }: any) => {

@@ -117,9 +117,9 @@ export default function TodoList() {
           </li>
         </ul>
       </div>
-      <p className=" text-black text-center text-4xl">Todo List App</p>
+      <p className=" text-black text-center text-4xl font-DM">Todo List App</p>
 
-      <div className="grocery-bud-box bg-white h-auto mx-auto shadow-xl rounded-sm mt-6 p-6 flex flex-col justify-center items-center gap-2">
+      <div className="font-sans grocery-bud-box bg-white h-auto mx-auto shadow-xl rounded-sm mt-6 p-6 flex flex-col justify-center items-center gap-2">
         {alert && (
           <p
             className={`${

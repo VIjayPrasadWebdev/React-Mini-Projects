@@ -42,7 +42,7 @@ export default function MenuItems() {
           </li>
         </ul>
       </div>
-      <p className="text-4xl text-center text-black">Menu Items</p>
+      <p className="text-4xl text-center text-black font-DM">Menu Items</p>
 
       <CategoryBtns categories={categories} FilterMenu={FilterMenu} />
 
@@ -60,7 +60,9 @@ export default function MenuItems() {
               />
               <div className="text-container flex gap-2 justify-around flex-col">
                 <div className="mini-text-container flex w-full justify-between items-center mt-3">
-                  <p className="text text-xl font-bold text-black">{title}</p>
+                  <p className="text text-xl font-bold text-black font-sans">
+                    {title}
+                  </p>
                   <p className="btn btn-outline btn-secondary active:text-white text-white font-semibold w-32">
                     {category}
                   </p>
@@ -86,7 +88,7 @@ function CategoryBtns({ categories, FilterMenu }: any) {
       {categories.map((category: any) => {
         return (
           <button
-            className="px-5 py-3 rounded-md bg-purepink text-white font-medium w-32"
+            className="px-5 py-3 rounded-md bg-purepink text-white font-medium w-32 font-sans"
             onClick={() => FilterMenu(category)}
             key={category}
           >

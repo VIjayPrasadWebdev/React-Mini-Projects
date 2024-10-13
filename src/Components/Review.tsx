@@ -51,7 +51,7 @@ export default function Review() {
           </li>
         </ul>
       </div>
-      <p className="text-4xl p-6 text-center text-black">Reviews</p>
+      <p className="text-4xl p-6 text-center text-black font-DM">Reviews</p>
       <div className="review-container flex items-center justify-center gap-2 p-6">
         <article className="review-box rounded-md hover:shadow-md cursor-pointer  bg-white h-96 lg:w-96 md:w-96 w-72 flex justify-center items-center flex-col gap-3 p-4 relative">
           <div className="img-container h-52 w-52 bg-indigo-600 rounded-full flex items-center justify-center">
@@ -63,11 +63,11 @@ export default function Review() {
           </div>
 
           <div className="text-container flex flex-col items-center justify-center">
-            <p className="text-2xl text-center text-black">
+            <p className="text-2xl text-center text-black font-serif">
               {" "}
               {name.replace(/^./, name[0].toUpperCase())}
             </p>
-            <p className="text-base text-indigo-800 text-center">
+            <p className="text-base text-indigo-800 text-cente font-sans">
               {" "}
               {job.replace(/^./, job[0].toUpperCase())}
             </p>
