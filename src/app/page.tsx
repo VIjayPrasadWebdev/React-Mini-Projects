@@ -17,7 +17,7 @@ export default function Home() {
         {filteredprojectdata.map(({ label, img, href }) => {
           return (
             <Link href={href} key={label}>
-              <div className="card bg-base-100 h-auto w-72 shadow-md cursor-pointer hover:shadow-xl">
+              <div className="card bg-white h-auto w-72 shadow-md cursor-pointer hover:shadow-xl">
                 <figure>
                   <img
                     src={img?.src}
@@ -26,7 +26,7 @@ export default function Home() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="bg-white text-center text-black font-DM text-xl font-medium">
+                  <h2 className=" text-center text-black font-DM text-xl font-medium">
                     {label}
                   </h2>
                 </div>

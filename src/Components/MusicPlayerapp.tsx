@@ -162,7 +162,7 @@ export default function MusicPlayerapp() {
 
         <audio src={path} ref={tracksong} />
         <div className="duration-container w-full flex items-center gap-6">
-          <p>{handleDuration(currentTime)}</p>
+          <p className="text-black">{handleDuration(currentTime)}</p>
           <input
             type="range"
             id="range"
@@ -171,7 +171,7 @@ export default function MusicPlayerapp() {
             onChange={handleRange}
             className="cursor-pointer"
           />
-          <p>{handleDuration(duration)}</p>
+          <p className="text-black">{handleDuration(duration)}</p>
         </div>
 
         <div className="btn-container flex items-center justify-center w-full gap-6">
@@ -187,16 +187,16 @@ export default function MusicPlayerapp() {
               })
             }
           >
-            <RiSkipBackFill className="h-6 w-6 " />
+            <RiSkipBackFill className="h-6 w-6  fill-black" />
           </button>
           <button
             className="player-btn bg-slate-100 p-2 shadow-lg rounded-full flex justify-center items-center play-icon"
             onClick={handleMusic}
           >
             {active ? (
-              <RiPauseFill className="h-8 w-8" />
+              <RiPauseFill className="h-8 w-8 fill-black" />
             ) : (
-              <RiPlayFill className="h-8 w-8" />
+              <RiPlayFill className="h-8 w-8 fill-black" />
             )}
           </button>
           <button
@@ -208,16 +208,20 @@ export default function MusicPlayerapp() {
               })
             }
           >
-            <RiSkipForwardFill className="h-6 w-6" />
+            <RiSkipForwardFill className="h-6 w-6 fill-black" />
           </button>
           <button>
-            <RiShuffleFill />
+            <RiShuffleFill className="fill-black" />
           </button>
         </div>
 
         <div className="volume-container flex items-center justify-center  gap-3 mt-6">
           <button>
-            {volume == 0 ? <RiVolumeMuteFill /> : <RiVolumeUpFill />}
+            {volume == 0 ? (
+              <RiVolumeMuteFill className="fill-black" />
+            ) : (
+              <RiVolumeUpFill className="fill-black" />
+            )}
           </button>
           <input
             type="range"

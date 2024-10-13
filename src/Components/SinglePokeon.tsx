@@ -100,7 +100,7 @@ export default function SinglePokeon({
           />
         </figure>
         <div className="card-body lg:w-96 w-72  bg-white rounded-md">
-          <h2 className="card-title text-2xl font-medium font-sans">
+          <h2 className="card-title text-2xl font-medium font-DM">
             {name.replace(/^./, name[0].toUpperCase())}
           </h2>
           <div className="btn-container flex items-center justify-start gap-3">

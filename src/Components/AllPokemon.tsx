@@ -35,7 +35,7 @@ export default function AllPokemon({ Allpokemons }: { Allpokemons: any }) {
               className="text-center font-medium font-sans"
               key={name}
             >
-              {name}
+              {name.replace(/^./, name[0].toUpperCase())}
               <img
                 key={name}
                 src={pokeball.src}
