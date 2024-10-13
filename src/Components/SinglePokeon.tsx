@@ -91,7 +91,7 @@ export default function SinglePokeon({
           </li>
         </ul>
       </div>
-      <article className="lg:mt-0 md:mt-0 mt-4 bg-transparent poke-card rounded-md items-center justify-center card-compact bg-base-100 lg:w-96 w-72 shadow-xl">
+      <article className="text-black lg:mt-0 md:mt-0 mt-4 bg-transparent poke-card rounded-md items-center justify-center card-compact bg-base-100 lg:w-96 w-72 shadow-xl">
         <figure>
           <img
             src={pokemonpic}
