@@ -5,7 +5,7 @@ import { createTheme } from "@/app/utils/theme";
 
 export default function DaisyUiTheme() {
   let { changeTheme } = useContext(createTheme);
-  let [activeurl, setactiveurl] = useState("/themegenerator");
+  let [activeurl] = useState("/themegenerator");
 
   return (
     <section className="lg:h-screen md:h-screen h-auto w-full   p-6 flex items-center flex-col justify-center ">

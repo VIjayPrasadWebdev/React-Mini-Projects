@@ -7,9 +7,9 @@ export default function LoadProductsapp({
 }: {
   loadproductsdata: any;
 }) {
-  let [activeurl, setactiveurl] = useState("/loadproducts");
+  let [activeurl] = useState("/loadproducts");
 
-  let [items, setItems] = useState(loadproductsdata);
+  let [items] = useState(loadproductsdata);
   let [value, setValue] = useState(3);
   let [active, setActive] = useState(false);
 

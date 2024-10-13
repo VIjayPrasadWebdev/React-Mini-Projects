@@ -6,7 +6,7 @@ export default function Review() {
   let [index, setindex] = useState(0);
 
   let { id, name, job, image } = Reviewsdata[index];
-  let [activeurl, setactiveurl] = useState("/reviews");
+  let [activeurl] = useState("/reviews");
 
   function Validatereviewbasedonlength(number: number) {
     if (number > Reviewsdata.length - 1) {

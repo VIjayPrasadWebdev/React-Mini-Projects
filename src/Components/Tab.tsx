@@ -8,8 +8,8 @@ import {
   MdOutlineKeyboardDoubleArrowRight,
 } from "react-icons/md";
 export default function Tabapp() {
-  let [activeurl, setactiveurl] = useState("/tab");
-  let [data, setdata] = useState(Tabdata);
+  let [activeurl] = useState("/tab");
+  let [data] = useState(Tabdata);
   let [value, setvalue] = useState(0);
   let { id, order, title, company, dates, duties } = data[value];
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 import pokeball from "@/images/pokeball.png";
 export default function AllPokemon({ Allpokemons }: { Allpokemons: any }) {
   //console.log(Allpokemons);
-  let [activeurl, setactiveurl] = useState("/pokemon/");
+  let [activeurl] = useState("/pokemon/");
   return (
     <section className=" h-auto p-6 flex items-center flex-col justify-center bg-stone-50 relative z-50">
       <div className="breadcrumbs text-lg mr-auto">

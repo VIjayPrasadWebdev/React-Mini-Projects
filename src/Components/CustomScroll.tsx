@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 export default function CustomScroller() {
-  let [activeurl, setactiveurl] = useState("/customscroll");
+  let [activeurl] = useState("/customscroll");
   let [scrollpercentage, setscrollpercetage] = useState(0);
 
   function handlescroller() {

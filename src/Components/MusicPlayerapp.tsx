@@ -16,8 +16,8 @@ import {
 } from "react-icons/ri";
 
 export default function MusicPlayerapp() {
-  let [activeurl, setactiveurl] = useState("/musicplayer");
-  let [bg, setbg] = useState("");
+  let [activeurl] = useState("/musicplayer");
+
   let [value, setValue] = useState(0);
   let [active, setActive] = useState(false);
   let [currentTime, setCurrenttime] = useState(0);

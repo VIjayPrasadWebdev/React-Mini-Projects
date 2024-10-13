@@ -5,7 +5,7 @@ import Menudata from "@/Data/Menu";
 console.log(Menudata);
 
 export default function MenuItems() {
-  let [activeurl, setactiveurl] = useState("/menuitems");
+  let [activeurl] = useState("/menuitems");
   let Uniquecategory = [
     "all",
     ...new Set(Menudata.map((item) => item.category)),

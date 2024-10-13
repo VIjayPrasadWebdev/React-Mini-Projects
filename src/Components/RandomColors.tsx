@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 export default function RandomColors() {
-  let [activeurl, setactiveurl] = useState("/randomcolorgenerator");
+  let [activeurl] = useState("/randomcolorgenerator");
   let [color, setcolor] = useState("#FFFFFF");
   let [type, setType] = useState("hex");
 

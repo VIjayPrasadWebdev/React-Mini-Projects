@@ -3,8 +3,8 @@ import Birthdaydata from "@/Data/birthday";
 import Link from "next/link";
 export default function BirthdayRemainder() {
   let [data, setdata] = useState<any>(Birthdaydata);
-  let [activeurl, setactiveurl] = useState("/birthdayremainder");
-  console.log(data);
+  let [activeurl] = useState("/birthdayremainder");
+  //console.log(data);
 
   function Removeeachperson(id: number) {
     let Filterperson = data.filter((data: any) => data.id !== id);
