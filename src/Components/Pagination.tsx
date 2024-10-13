@@ -8,7 +8,7 @@ export default function Pagination({ data }: { data: any }) {
   //  let [data, setData] = useState([]);
 
   let [currentpage, setcurrentpage] = useState(1);
-  let [perpage] = useState(10);
+  let [perpage, setperpage] = useState(10);
   let [activeurl] = useState("/pagination");
 
   // 10 data per page :

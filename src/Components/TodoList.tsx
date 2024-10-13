@@ -5,7 +5,7 @@ import { BiEdit } from "react-icons/bi";
 import { FiDelete, FiEdit } from "react-icons/fi";
 import { TbEdit, TbTrash } from "react-icons/tb";
 export default function TodoList() {
-  let [activeurl] = useState("/todolistapp");
+  let [activeurl, setactiveurl] = useState("/todolistapp");
 
   let data = [
     {

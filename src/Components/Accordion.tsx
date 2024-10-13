@@ -5,7 +5,7 @@ import Accodiondata from "@/Data/Accordation";
 import { BiMinus, BiPlus } from "react-icons/bi";
 export default function AccordionComponent() {
   let [activeurl] = useState("/accordion");
-  let [questiondata] = useState(Accodiondata);
+  let [questiondata, setquestion] = useState(Accodiondata);
   let [active, setActive] = useState(null);
 
   function handlebtn(id: any) {

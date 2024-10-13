@@ -9,7 +9,7 @@ import {
   FaRegArrowAltCircleRight,
 } from "react-icons/fa";
 export default function Carouselapp() {
-  let [activeurl] = useState("/carousel");
+  let [activeurl, setactiveurl] = useState("/carousel");
   let [data] = useState(Carouseldata);
   let [currentindex, setcurrentindex] = useState(1);
 

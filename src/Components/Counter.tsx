@@ -2,7 +2,7 @@
 import { useReducer, useState } from "react";
 import Link from "next/link";
 export default function CounterApp() {
-  let [activeurl] = useState("/counter");
+  let [activeurl, setactiveurl] = useState("/counter");
 
   type initalstate = {
     value: number;

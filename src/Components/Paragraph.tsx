@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import paragraphdata from "@/Data/Paragraph";
 export default function ParagraphGenerator() {
-  let [activeurl] = useState("/paragraphgenerator");
+  let [activeurl, setactiveurl] = useState("/paragraphgenerator");
   let [input, setinput] = useState<number>(0);
   let [data, setdata] = useState<String[]>([]);
   function handleform(e: any) {

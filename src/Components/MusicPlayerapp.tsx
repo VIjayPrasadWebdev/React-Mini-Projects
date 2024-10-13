@@ -16,7 +16,7 @@ import {
 } from "react-icons/ri";
 
 export default function MusicPlayerapp() {
-  let [activeurl] = useState("/musicplayer");
+  let [activeurl, setactiveurl] = useState("/musicplayer");
 
   let [value, setValue] = useState(0);
   let [active, setActive] = useState(false);

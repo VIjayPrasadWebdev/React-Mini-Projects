@@ -20,7 +20,7 @@ export default function SinglePokeon({
   let move2 = singlepokemon.moves[1].move.name;
   console.log(type);
   //"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg";
-  let [activeurl] = useState(`home/pokemon/${name}`);
+  let [activeurl, setactiveurl] = useState(`home/pokemon/${name}`);
 
   function choosecolor() {
     let fire = "bg-orange-500";
