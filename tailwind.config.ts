@@ -36,6 +36,9 @@ const config: Config = {
         artistfont: ".9rem",
         colorstextfont: "1.1rem",
       },
+      fontFamily: {
+        DM: [" 'DM Serif Text', serif"],
+      },
     },
   },
 

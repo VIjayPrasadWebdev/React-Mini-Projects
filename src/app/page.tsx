@@ -10,7 +10,7 @@ let filteredprojectdata = projectdata.filter((data, index) => index > 0);
 export default function Home() {
   return (
     <main className="bg-white h-auto p-6 flex flex-col justify-center items-center gap-10 ">
-      <h1 className="lg:text-4xl md:text-4xl text-3xl text-black">
+      <h1 className="lg:text-4xl md:text-4xl text-3xl text-black font-DM">
         React Mini Projects
       </h1>
       <section className="projects-container flex  justify-center items-center gap-10 flex-wrap">
@@ -26,7 +26,7 @@ export default function Home() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className=" text-center text-xl font-semibold">
+                  <h2 className=" text-center text-black font-DM text-xl font-medium">
                     {label}
                   </h2>
                 </div>
