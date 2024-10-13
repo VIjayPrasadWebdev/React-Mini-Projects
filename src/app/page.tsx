@@ -26,7 +26,7 @@ export default function Home() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className=" text-center text-black font-DM text-xl font-medium">
+                  <h2 className="bg-white text-center text-black font-DM text-xl font-medium">
                     {label}
                   </h2>
                 </div>

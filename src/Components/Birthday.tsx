@@ -39,7 +39,7 @@ export default function BirthdayRemainder() {
           </li>
         </ul>
       </div>
-      <p className="lg:text-4xl text-3xl text-center text-black  lg:mt-0 md:mt-0 mt-20">
+      <p className="lg:text-4xl text-3xl text-center text-black  lg:mt-0 md:mt-0 mt-20 font-DM">
         Birthday Remainder
       </p>
       <p className="text-2xl text-center text-black">
