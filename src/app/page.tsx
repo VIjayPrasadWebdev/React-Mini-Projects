@@ -9,7 +9,7 @@ let filteredprojectdata = projectdata.filter((data, index) => index > 0);
 
 export default function Home() {
   return (
-    <main className="h-auto p-6 flex flex-col justify-center items-center gap-10 ">
+    <main className="bg-white h-auto p-6 flex flex-col justify-center items-center gap-10 ">
       <h1 className="lg:text-4xl md:text-4xl text-3xl text-black">
         React Mini Projects
       </h1>
