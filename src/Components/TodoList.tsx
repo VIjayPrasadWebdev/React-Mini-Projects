@@ -147,6 +147,7 @@ export default function TodoList() {
             className="bg-gray-200 p-2 w-full h-10 outline-none placeholder:text-center text-black"
             onChange={handleinput}
             placeholder="eg: Tomato..."
+            required
           />
           <button className="px-5 py-2 rounded-md bg-blue-700 text-white font-medium w-32">
             {edit ? "Edit" : "Submit"}
