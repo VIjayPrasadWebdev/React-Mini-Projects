@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Menudata from "@/Data/Menu";
-console.log(Menudata);
+//console.log(Menudata);
 
 export default function MenuItems() {
   let [activeurl] = useState("/menuitems");
-  let Uniquecategory = [
+  const Uniquecategory: string[] = [
     "all",
-    ...new Set(Menudata.map((item) => item.category)),
+    ...Array.from(new Set<string>(Menudata.map((item) => item.category))),
   ];
 
   // console.log(Uniquecategory);
